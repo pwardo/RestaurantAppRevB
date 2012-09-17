@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Restaurant App!</string>
+    <string name="app_name">Restaurant App RevB</string>
+    
+    <string name="no_records">No Restaurants Yet</string>
+    <string name="menu_insert">Add Restaurant</string>
+    <string name="menu_delete">Delete Restaurant</string>
+    <string name="menu_update">Update Details</string>
+    <string name="name">Name:</string>
+    <string name="address">Address:</string>
+    <string name="phone">Phone Number:"</string>
+    <string name="note">Note:</string>
+    <string name="rating">My Rating:</string>
+    
+	<string name="detail_record">Restaurant Details</string>
+	<string name="edit_record">Edit Restaurant Info</string>    
+    
+    <string name="edit">Edit</string>
+    <string name="confirm">Confirm</string>
+	<string name="back">Back</string>
+</resources>

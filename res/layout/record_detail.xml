@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<TableLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+  	>
+				
+	<TableRow>
+		<TextView 
+			android:id="@+id/name" 
+			android:textStyle="bold"
+			android:padding="10dp"
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content" 
+			android:textSize="20sp"
+			android:layout_column="1"
+			android:minLines="1"
+			
+			/>
+			
+	</TableRow>
+	
+		<View
+        	android:layout_height="1dip"
+        	android:background="#FF909090" />
+			
+	<TableRow>
+		<TextView 
+			android:text="@string/address" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:paddingTop="20dp"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:paddingBottom="5dp"
+	    	android:textSize="18sp"
+			android:textStyle="bold"
+			android:layout_column="1"			
+			/>
+	</TableRow>
+			
+	<TableRow>
+		<TextView 
+			android:id="@+id/address" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:paddingLeft="30dp"
+			android:paddingRight="30dp"
+		   	android:textSize="16sp"
+			android:scrollbars="vertical"
+			android:layout_column="1"
+			android:minLines="2"
+			/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView 
+			android:text="@string/phone" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:paddingTop="20dp"
+			android:paddingRight="10dp"
+			android:paddingLeft="10dp"
+			android:paddingBottom="5dp"
+	    	android:textSize="18sp"
+			android:textStyle="bold"
+			android:layout_column="1"			
+			/>
+	</TableRow>
+			
+	<TableRow>
+		<TextView 
+			android:id="@+id/phone" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:paddingLeft="30dp"
+		   	android:textSize="16sp"
+			android:scrollbars="vertical"
+			android:layout_column="1"
+			android:minLines="1"
+			
+			/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView 
+			android:text="@string/note" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:paddingTop="20dp"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:paddingBottom="5dp"
+	    	android:textSize="18sp"
+			android:textStyle="bold"
+			android:layout_column="1"		
+			/>
+	</TableRow>
+			
+	<TableRow>
+		<TextView 
+			android:id="@+id/note" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:paddingLeft="30dp"
+		   	android:textSize="16sp"
+			android:scrollbars="vertical"
+			android:layout_column="1" 
+			android:minLines="3"
+			/>
+	</TableRow>
+	
+        	
+	<TableRow>
+	<RatingBar android:id="@+id/ratingbar"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:numStars="5"
+		android:stepSize="1.0"
+		android:layout_column="1"
+		android:isIndicator="true"
+		android:paddingTop="5dp"
+		android:layout_gravity="center"
+	/>
+		
+	/>
+	</TableRow>
+</TableLayout>
+	
+</LinearLayout>
